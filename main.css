@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway";
+    background-color: #f1f1f1;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    background: #173451;
+    padding: 20px 130px;
+}
+
+.title {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    float: right;
+}
+
+.title__main{
+    color: #fcbf16;
+    font-style: italic;
+}
+
+.img {
+    display: inline-block;
+}
+
+.img--logo {
+    width: 5%;
+}
+
+/* code here... */
+
+.mainframe {
+    margin: 100px 200px;
+}
+
+.article--main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.subframe {
+    display: flex;
+    margin: 0 100px;
+}
+
+.article--sub {
+    display: flex;
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+.article--leftside {
+    flex-direction: row-reverse;
+}
+
+.article--content {
+    padding: 0 30px;
+}
+
+.article--content--leftside {
+    /* text-align: right; */
+}
+
+.article--title {
+    font-size: 20px;
+}
+
+.article--text {
+    margin-bottom: 10px;
+}
+
+.button {
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button--main {
+    width: 200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.button--sub {
+    max-width: 120px;
+    padding: 10px 0;
+}
+
+.button--leftside {
+    margin-left: auto;
+}
+
+.img--sub {
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    background-color: #173451;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
