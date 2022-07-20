@@ -78,7 +78,7 @@ header {
 }
 
 .article--content--leftside {
-    /* text-align: right; */
+    text-align: right;
 }
 
 .article--title {
